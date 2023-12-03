@@ -9,9 +9,9 @@ export const Routes = (): ReactElement => {
     const navigation = useNavigate();
 
     useEffect(() => {
-        if (isLoading) return navigation("/bkparser");
-        if (!isAuth) return navigation("/bkparser/auth");
-        return navigation("/bkparser/home");
+        if (isLoading) return navigation("/parserbk");
+        if (!isAuth) return navigation("/parserbk/auth");
+        return navigation("/parserbk/home");
     }, [isAuth, navigation, isLoading]);
 
     return (
