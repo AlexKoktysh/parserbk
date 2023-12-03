@@ -1,7 +1,7 @@
 {
     "name": "bk",
     "version": "0.1.0",
-    "homepage": "https://artemka777fil.github.io/bkparser",
+    "homepage": "https://AlexKoktysh.github.io/parserbk",
     "private": true,
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.7",
