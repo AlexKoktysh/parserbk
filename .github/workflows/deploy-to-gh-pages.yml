@@ -1,7 +1,8 @@
 name: Build and Deploy
 on: [push]
 permissions:
-    contents: write
+    contents: read
+    packages: write
 jobs:
     build:
         runs-on: windows-latest
