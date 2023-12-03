@@ -1,8 +1,8 @@
 {
     "name": "bk",
     "version": "0.1.0",
-    "homepage": "https://github.com/AlexKoktysh/parserbk",
-    "private": true,
+    "homepage": "https://AlexKoktysh.github.io/parserbk",
+    "private": false,
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.7",
         "@types/node": "^16.18.61",
