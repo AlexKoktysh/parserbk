@@ -1,8 +1,10 @@
 name: Build and Deploy
-on: [push]
+on:
+    push:
+        branches:
+            - master
 permissions:
-    contents: read
-    packages: write
+    contents: write
 jobs:
     build:
         runs-on: windows-latest
@@ -45,3 +47,5 @@ jobs:
               with:
                   folder: site
                   BRANCH: gh-pages
+                  clean: true
+                  ssh-key: ${{ secrets.DEPLOY_KEY }}
